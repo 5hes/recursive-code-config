@@ -1,0 +1,44 @@
+name: Build
+
+on:
+  workflow_dispatch:
+    
+jobs:
+  Build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4.2.2
+    - name: Setup Python
+      uses: actions/setup-python@v5.3.0
+      with:
+        python-version: 3.13
+        cache: pip
+        architecture: x64
+    - name: Using the venv
+      run: |
+        py -m venv venv                  # make a virtual environment called "venv"
+        venv\Scripts\activate            # activate the virtual environment 
+        pip install -r requirements.txt  # install dependencies
+    - name: Build
+      run: |
+        source venv/bin/activate         # activate the virtual environment if you haven’t already
+        python3 scripts/instantiate-code-fonts.py
+    - name: Check info
+      run: |
+        ls -ltrah
+        ls -ltra
+        tree
+    - name: Upload a Build Artifact
+      uses: actions/upload-artifact@v4.4.3
+      with:
+        name: Rec
+
+
+
+
+
+
+
+          
