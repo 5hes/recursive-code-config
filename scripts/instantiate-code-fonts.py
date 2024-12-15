@@ -16,13 +16,13 @@ import shutil
 import yaml
 import sys
 import logging
-import ttfautohint
+# import ttfautohint
 from fontTools.varLib import instancer
 from fontTools.varLib.instancer import OverlapMode
 from opentype_feature_freezer import cli as pyftfeatfreeze
 from dlig2calt import dlig2calt
 from mergePowerlineFont import mergePowerlineFont
-from ttfautohint.options import USER_OPTIONS as ttfautohint_options
+# from ttfautohint.options import USER_OPTIONS as ttfautohint_options
 
 # prevents over-active warning logs
 logging.getLogger("opentype_feature_freezer").setLevel(logging.ERROR)
@@ -230,15 +230,15 @@ def splitFont(
 
         # TTF autohint
 
-        ttfautohint_options.update(
-                                    in_file=outputPath,
-                                    out_file=outputPath,
-                                    hint_composites=True
-                                    )
-
-        ttfautohint.ttfautohint()
-
-        print(f"\n→ Font saved to '{outputPath}'\n")
+#         ttfautohint_options.update(
+#                                     in_file=outputPath,
+#                                     out_file=outputPath,
+#                                     hint_composites=True
+#                                     )
+# 
+#         ttfautohint.ttfautohint()
+# 
+#         print(f"\n→ Font saved to '{outputPath}'\n")
 
 
         print('Features are ', fontOptions['Features'])
