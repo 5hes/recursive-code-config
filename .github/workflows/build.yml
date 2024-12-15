@@ -18,8 +18,8 @@ jobs:
         architecture: x64
     - name: Using the venv
       run: |
-        py -m venv venv                  # make a virtual environment called "venv"
-        venv\Scripts\activate            # activate the virtual environment 
+        python3 -m venv venv             # make a virtual environment called "venv"
+        source venv/bin/activate         # activate the virtual environment
         pip install -r requirements.txt  # install dependencies
     - name: Build
       run: |
