@@ -1,0 +1,17 @@
+# to enable all sorts of font manipulation
+fonttools
+
+# to check font versions in the build-all shell script
+font-v
+
+# to run the code font instantiation script
+opentype-feature-freezer
+
+# to remove components in code ligatures for improved rendering
+skia-pathops
+
+# to parse YAML config file
+pyyaml
+
+# to autohint output fonts
+# ttfautohint-py>=0.5.0
