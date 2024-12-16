@@ -10,6 +10,11 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v4.2.2
+    - name: Create a new tag
+      run: |
+        TAG_NAME="v0.0.1"
+        git tag $TAG_NAME
+        git push origin $TAG_NAME
     - name: Setup Python
       uses: actions/setup-python@v5.3.0
       with:
@@ -30,15 +35,13 @@ jobs:
         ls -ltrah
         ls -ltra
         tree
-    - name: Upload a Build Artifact
-      uses: actions/upload-artifact@v4.4.3
+    - name: GH Release
+      uses: softprops/action-gh-release@v2.2.0
       with:
-        name: fonts/RecMonoCustom/**
-
-
-
-
-
-
-
+        # body:
+        # Path to load note-worthy description of changes in release from
+        # body_path:
+        name: Recursive_Custom
+        tag_name: v0.0.1
+        files: fonts/RecMonoCustom/**
           
