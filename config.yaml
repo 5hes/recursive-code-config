@@ -36,6 +36,34 @@ Family Name: Custom
 
 Fonts:
 
+  Mono-Regular:
+    MONO: 1
+    CASL: 0
+    wght: 400
+    slnt: 0
+    CRSV: 1
+
+  Mono-Art-Regular:
+    MONO: 1
+    CASL: 1
+    wght: 400
+    slnt: 0
+    CRSV: 1
+
+  Roman-Mono-Regular:
+    MONO: 1
+    CASL: 0
+    wght: 400
+    slnt: 0
+    CRSV: 0.5
+
+  Roman-Mono-Art-Regular:
+    MONO: 1
+    CASL: 1
+    wght: 400
+    slnt: 0
+    CRSV: 0.5
+    
   MonoSelf-Art-Regular:
     MONO: 0.5
     CASL: 1
@@ -43,6 +71,41 @@ Fonts:
     slnt: 0
     CRSV: 1
 
+  MonoSelf-Regular:
+    MONO: 0.5
+    CASL: 0
+    wght: 400
+    slnt: 0
+    CRSV: 1
+
+  Roman-MonoSelf-Art-Regular:
+    MONO: 0.5
+    CASL: 1
+    wght: 400
+    slnt: 0
+    CRSV: 0.5
+
+  Reman-MonoSelf-Regular:
+    MONO: 0.5
+    CASL: 0
+    wght: 400
+    slnt: 0
+    CRSV: 0.5
+
+  AllSelf:
+    MONO: 0.5
+    CASL: 0.5
+    wght: 400
+    slnt: 0
+    CRSV: 1
+
+  Roman-Allself:
+    MONO: 0.5
+    CASL: 0.5
+    wght: 400
+    slnt: 0
+    CRSV: 0.5
+    
 #   Italic:
 #     MONO: 1
 #     CASL: 1
