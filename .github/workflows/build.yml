@@ -12,7 +12,7 @@ jobs:
       uses: actions/checkout@v4.2.2
     - name: Create a new tag
       run: |
-        TAG_NAME="v0.0.2"
+        TAG_NAME="v0.0.3"
         git tag $TAG_NAME
         git push origin $TAG_NAME
     - name: Setup Python
@@ -41,7 +41,7 @@ jobs:
         # body:
         # Path to load note-worthy description of changes in release from
         # body_path:
-        name: Recursive_Custom-FeatureEnable
-        tag_name: v0.0.2
+        name: Recursive_Custom-FeatureDisable
+        tag_name: v0.0.3
         files: fonts/RecMonoCustom/**
           
