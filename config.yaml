@@ -105,6 +105,76 @@ Fonts:
     wght: 400
     slnt: 0
     CRSV: 0.5
+
+  Mono-Medium:
+    MONO: 1
+    CASL: 0
+    wght: 500
+    slnt: 0
+    CRSV: 1
+
+  Mono-Art-Medium:
+    MONO: 1
+    CASL: 1
+    wght: 500
+    slnt: 0
+    CRSV: 1
+
+  Roman-Mono-Medium:
+    MONO: 1
+    CASL: 0
+    wght: 500
+    slnt: 0
+    CRSV: 0.5
+
+  Roman-Mono-Art-Medium:
+    MONO: 1
+    CASL: 1
+    wght: 500
+    slnt: 0
+    CRSV: 0.5
+    
+  MonoSelf-Art-Medium:
+    MONO: 0.5
+    CASL: 1
+    wght: 500
+    slnt: 0
+    CRSV: 1
+
+  MonoSelf-Medium:
+    MONO: 0.5
+    CASL: 0
+    wght: 500
+    slnt: 0
+    CRSV: 1
+
+  Roman-MonoSelf-Art-Medium:
+    MONO: 0.5
+    CASL: 1
+    wght: 500
+    slnt: 0
+    CRSV: 0.5
+
+  Roman-MonoSelf-Medium:
+    MONO: 0.5
+    CASL: 0
+    wght: 500
+    slnt: 0
+    CRSV: 0.5
+
+  AllSelf-Medium:
+    MONO: 0.5
+    CASL: 0.5
+    wght: 500
+    slnt: 0
+    CRSV: 1
+
+  Roman-Allself-Medium:
+    MONO: 0.5
+    CASL: 0.5
+    wght: 500
+    slnt: 0
+    CRSV: 0.5
     
 #   Italic:
 #     MONO: 1
