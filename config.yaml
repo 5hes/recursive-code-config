@@ -20,7 +20,7 @@
 # Example: "Custom" will yield the family "Rec Mono Custom". 
 # Keep under 13 characters in length to avoid potential OS bugs.
 
-Family Name: Custom 
+Family Name: Costom 
 
 # -----------------------------------------------------------------------------
 # Font Styles
@@ -85,7 +85,7 @@ Fonts:
     slnt: 0
     CRSV: 0.5
 
-  Reman-MonoSelf-Regular:
+  Roman-MonoSelf-Regular:
     MONO: 0.5
     CASL: 0
     wght: 400
@@ -169,10 +169,54 @@ Fonts:
     slnt: 0
     CRSV: 1
 
-  Roman-Allself-Medium:
+  Roman-AllSelf-Medium:
     MONO: 0.5
     CASL: 0.5
     wght: 500
+    slnt: 0
+    CRSV: 0.5
+
+# sans
+
+  Sans-Regular:
+    MONO: 0
+    CASL: 0
+    wght: 400
+    slnt: 0
+    CRSV: 1
+
+  Sans-Art-Regular:
+    MONO: 0
+    CASL: 1
+    wght: 400
+    slnt: 0
+    CRSV: 1
+
+  Roman-Sans-Regular:
+    MONO: 0
+    CASL: 0
+    wght: 400
+    slnt: 0
+    CRSV: 0.5
+
+  Roman-Sans-Art-Regular:
+    MONO: 0
+    CASL: 1
+    wght: 400
+    slnt: 0
+    CRSV: 0.5
+
+  Sans-ArtSelf-Regular:
+    MONO: 0
+    CASL: 0.5
+    wght: 400
+    slnt: 0
+    CRSV: 1
+
+  Roman-Sans-ArtSelf-Regular:
+    MONO: 0
+    CASL: 0.5
+    wght: 400
     slnt: 0
     CRSV: 0.5
     
