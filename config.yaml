@@ -50,19 +50,12 @@ Fonts:
     slnt: 0
     CRSV: 1
 
-  Roman-Mono-Regular:
+  Mono-ArtSelf-Regular:
     MONO: 1
-    CASL: 0
+    CASL: 0.5
     wght: 400
     slnt: 0
-    CRSV: 0.5
-
-  Roman-Mono-Art-Regular:
-    MONO: 1
-    CASL: 1
-    wght: 400
-    slnt: 0
-    CRSV: 0.5
+    CRSV: 1
     
   MonoSelf-Art-Regular:
     MONO: 0.5
@@ -78,33 +71,12 @@ Fonts:
     slnt: 0
     CRSV: 1
 
-  Roman-MonoSelf-Art-Regular:
-    MONO: 0.5
-    CASL: 1
-    wght: 400
-    slnt: 0
-    CRSV: 0.5
-
-  Roman-MonoSelf-Regular:
-    MONO: 0.5
-    CASL: 0
-    wght: 400
-    slnt: 0
-    CRSV: 0.5
-
   AllSelf:
     MONO: 0.5
     CASL: 0.5
     wght: 400
     slnt: 0
     CRSV: 1
-
-  Roman-Allself:
-    MONO: 0.5
-    CASL: 0.5
-    wght: 400
-    slnt: 0
-    CRSV: 0.5
 
   Mono-Medium:
     MONO: 1
@@ -119,20 +91,6 @@ Fonts:
     wght: 500
     slnt: 0
     CRSV: 1
-
-  Roman-Mono-Medium:
-    MONO: 1
-    CASL: 0
-    wght: 500
-    slnt: 0
-    CRSV: 0.5
-
-  Roman-Mono-Art-Medium:
-    MONO: 1
-    CASL: 1
-    wght: 500
-    slnt: 0
-    CRSV: 0.5
     
   MonoSelf-Art-Medium:
     MONO: 0.5
@@ -148,6 +106,71 @@ Fonts:
     slnt: 0
     CRSV: 1
 
+  AllSelf-Medium:
+    MONO: 0.5
+    CASL: 0.5
+    wght: 500
+    slnt: 0
+    CRSV: 1
+
+# Roman Mono
+
+  Roman-Mono-Regular:
+    MONO: 1
+    CASL: 0
+    wght: 400
+    slnt: 0
+    CRSV: 0.5
+
+  Roman-Mono-Art-Regular:
+    MONO: 1
+    CASL: 1
+    wght: 400
+    slnt: 0
+    CRSV: 0.5
+
+  Roman-Mono-ArtSelf-Regular:
+    MONO: 1
+    CASL: 0.5
+    wght: 400
+    slnt: 0
+    CRSV: 0.5
+
+  Roman-MonoSelf-Art-Regular:
+    MONO: 0.5
+    CASL: 1
+    wght: 400
+    slnt: 0
+    CRSV: 0.5
+
+  Roman-MonoSelf-Regular:
+    MONO: 0.5
+    CASL: 0
+    wght: 400
+    slnt: 0
+    CRSV: 0.5
+
+  Roman-Allself:
+    MONO: 0.5
+    CASL: 0.5
+    wght: 400
+    slnt: 0
+    CRSV: 0.5
+
+  Roman-Mono-Medium:
+    MONO: 1
+    CASL: 0
+    wght: 500
+    slnt: 0
+    CRSV: 0.5
+
+  Roman-Mono-Art-Medium:
+    MONO: 1
+    CASL: 1
+    wght: 500
+    slnt: 0
+    CRSV: 0.5
+
   Roman-MonoSelf-Art-Medium:
     MONO: 0.5
     CASL: 1
@@ -162,21 +185,14 @@ Fonts:
     slnt: 0
     CRSV: 0.5
 
-  AllSelf-Medium:
-    MONO: 0.5
-    CASL: 0.5
-    wght: 500
-    slnt: 0
-    CRSV: 1
-
   Roman-AllSelf-Medium:
     MONO: 0.5
     CASL: 0.5
     wght: 500
     slnt: 0
     CRSV: 0.5
-
-# sans
+    
+# Sans
 
   Sans-Regular:
     MONO: 0
@@ -192,6 +208,15 @@ Fonts:
     slnt: 0
     CRSV: 1
 
+  Sans-ArtSelf-Regular:
+    MONO: 0
+    CASL: 0.5
+    wght: 400
+    slnt: 0
+    CRSV: 1
+
+# Roman Sans
+
   Roman-Sans-Regular:
     MONO: 0
     CASL: 0
@@ -205,13 +230,6 @@ Fonts:
     wght: 400
     slnt: 0
     CRSV: 0.5
-
-  Sans-ArtSelf-Regular:
-    MONO: 0
-    CASL: 0.5
-    wght: 400
-    slnt: 0
-    CRSV: 1
 
   Roman-Sans-ArtSelf-Regular:
     MONO: 0
