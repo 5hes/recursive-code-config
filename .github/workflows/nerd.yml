@@ -42,7 +42,8 @@ jobs:
         tree
     - name: Setup environment
       run: |
-        sudo apt-get update && sudo apt-get install fontforge python3-fontforge
+        sudo apt-get update
+        sudo apt-get install fontforge python3-fontforge python3 -y
     - name: Download Patcher
       run: |
         mkdir patcher
