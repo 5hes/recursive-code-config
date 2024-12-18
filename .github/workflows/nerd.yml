@@ -20,12 +20,12 @@ jobs:
         # TAG_NAME="v0.0.5-nerd"
         # git tag $TAG_NAME
         # git push origin $TAG_NAME
-    - name: Setup Python
-      uses: actions/setup-python@v5.3.0
-      with:
-        python-version: 3.13
-        cache: pip
-        architecture: x64
+#    - name: Setup Python
+#      uses: actions/setup-python@v5.3.0
+#      with:
+#        python-version: 3.13
+#        cache: pip
+#        architecture: x64
     - name: Using the venv
       run: |
         python3 -m venv venv             # make a virtual environment called "venv"
