@@ -53,12 +53,15 @@ jobs:
     - name: Mov font to work dir
       run: |
         mv fonts/RecMonoCustom/* patcher/
-        mv scripts/ttf.sh patcher/
+        mv scripts/patch_all.sh patcher/
+        tree
     - name: Patch    
       run: |
         cd patcher
-        chmod +x ttf.sh
-        /ttf.sh
+        ls -ltrah
+        tree
+        chmod +x patch_all.sh
+        /patch_all.sh
         tree
     - name: GH Release
       uses: softprops/action-gh-release@v2
