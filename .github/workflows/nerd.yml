@@ -17,9 +17,9 @@ jobs:
       uses: actions/checkout@v4.2.2
     - name: Create a new tag
       run: |
-        TAG_NAME="v0.0.5-nerd"
-        git tag $TAG_NAME
-        git push origin $TAG_NAME
+        # TAG_NAME="v0.0.5-nerd"
+        # git tag $TAG_NAME
+        # git push origin $TAG_NAME
     - name: Setup Python
       uses: actions/setup-python@v5.3.0
       with:
@@ -54,6 +54,7 @@ jobs:
         mv fonts/RecMonoCustom/* patcher/
     - name: Patch    
       run: |
+        cd patcher
         ./font-patcher -c *.ttf -o patched
         tree
     - name: GH Release
